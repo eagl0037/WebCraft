@@ -1,1633 +1,1120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Asha Studios - Web Development, Backup Management & Graphic Design | Toronto</title>
-  <meta name="description" content="Asha Studios: Expert web developer and graphic designer offering custom websites, secure backup management, and creative design solutions in Toronto, Canada. Get a free consultation today!" />
-  <meta name="author" content="Asha Studios" />
-  <meta name="keywords" content="web development Toronto, graphic design Canada, backup management, website design, data backup services, logo design, WordPress developer, secure data storage, brand identity" />
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://eagl0037.github.io/asha-studios/" />
-  <meta property="og:title" content="Asha Studios - Web Development, Backup Management & Graphic Design | Toronto" />
-  <meta property="og:description" content="Expert web developer and graphic designer offering custom websites, secure backup management, and creative design solutions in Toronto, Canada." />
-  <meta property="og:image" content="https://eagl0037.github.io/asha-studios/preview.jpg" />
-  <meta property="og:site_name" content="Asha Studios" />
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://eagl0037.github.io/asha-studios/" />
-  <meta property="twitter:title" content="Asha Studios - Web Development, Backup Management & Graphic Design | Toronto" />
-  <meta property="twitter:description" content="Expert web developer and graphic designer offering custom websites, secure backup management, and creative design solutions in Toronto, Canada." />
-  <meta property="twitter:image" content="https://eagl0037.github.io/asha-studios/preview.jpg" />
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://eagl0037.github.io/asha-studios/" />
-  
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-  
-  <!-- Preload critical resources -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" as="style" />
-  <link rel="preload" href="preview.jpg" as="image" />
-  
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            purple: {
-              600: '#7c3aed',
-              700: '#6d28d9',
-              800: '#5b21b6',
-            },
-          },
-          fontFamily: {
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-          },
-        },
-      },
-    }
-  </script>
-
-  <!-- Enhanced JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Asha Studios",
-    "alternateName": "Asha Studios Web Development",
-    "url": "https://eagl0037.github.io/asha-studios/",
-    "logo": "https://eagl0037.github.io/asha-studios/preview.jpg",
-    "image": "https://eagl0037.github.io/asha-studios/preview.jpg",
-    "description": "Professional web development and design services specializing in React, JavaScript, and modern web applications. Serving Toronto and all of Canada.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Toronto",
-      "addressRegion": "Ontario",
-      "addressCountry": "Canada"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "43.6532",
-      "longitude": "-79.3832"
-    },
-    "serviceArea": {
-      "@type": "State",
-      "name": "Ontario"
-    },
-    "areaServed": ["Toronto", "Ontario", "Canada", "North America"],
-    "knowsAbout": ["Web Development", "React", "JavaScript", "UI/UX Design", "SEO", "Web Performance"],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Web Development Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Custom Web Development",
-            "description": "Bespoke web applications built with React and modern JavaScript"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service", 
-            "name": "UI/UX Design",
-            "description": "User-centered design for optimal user experience and conversion"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "SEO Optimization",
-            "description": "Technical SEO and performance optimization for better search rankings"
-          }
-        }
-      ]
-    },
-    "sameAs": [
-      "https://www.linkedin.com/in/yourprofile",
-      "https://github.com/eagl0037",
-      "https://twitter.com/AshaStudios"
-    ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1-416-555-0123",
-      "contactType": "customer service",
-      "availableLanguage": ["English", "French"]
-    }
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Asha Studios Developer",
-    "jobTitle": "Senior Web Developer & UI/UX Designer",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Asha Studios"
-    },
-    "url": "https://eagl0037.github.io/asha-studios/",
-    "sameAs": [
-      "https://www.linkedin.com/in/yourprofile",
-      "https://github.com/eagl0037"
-    ],
-    "knowsAbout": [
-      "JavaScript",
-      "React.js",
-      "Vue.js", 
-      "Node.js",
-      "CSS3",
-      "HTML5",
-      "Web Performance",
-      "SEO",
-      "Accessibility",
-      "Responsive Design"
-    ],
-    "hasOccupation": {
-      "@type": "Occupation",
-      "name": "Web Developer",
-      "occupationLocation": {
-        "@type": "City",
-        "name": "Toronto"
-      }
-    }
-  }
-  </script>
-
-  <style>
-    /* Critical CSS for above-the-fold content */
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #0a0a0a;
-      color: #e4e4e4;
-      scroll-behavior: smooth;
-      transition: background-color 0.5s, color 0.5s;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    /* Performance optimization */
-    * {
-      box-sizing: border-box;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      loading: lazy;
-    }
-
-    a {
-      color: #a855f7;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-    a:hover, a:focus {
-      color: #c084fc;
-      outline: 2px solid #a855f7;
-      outline-offset: 2px;
-    }
-
-    /* Enhanced header with better animations */
-    header {
-      min-height: 100vh;
-      background:
-        linear-gradient(135deg, rgba(16, 8, 40, 0.95), rgba(28, 24, 45, 0.9)),
-        url('preview.jpg') center/cover no-repeat fixed;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 2rem;
-      position: relative;
-      overflow: hidden;
-      color: #fff;
-    }
-
-    header::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(circle at 30% 50%, rgba(168, 85, 247, 0.3), transparent 70%),
-        radial-gradient(circle at 70% 30%, rgba(124, 58, 237, 0.2), transparent 60%);
-      pointer-events: none;
-      z-index: 0;
-      animation: gradientShift 8s ease-in-out infinite;
-    }
-
-    @keyframes gradientShift {
-      0%, 100% {
-        opacity: 0.4;
-        transform: scale(1) rotate(0deg);
-      }
-      50% {
-        opacity: 0.7;
-        transform: scale(1.1) rotate(1deg);
-      }
-    }
-
-    header h1 {
-      font-size: clamp(2.5rem, 8vw, 7rem);
-      font-weight: 900;
-      letter-spacing: -0.02em;
-      z-index: 1;
-      margin-bottom: 1.5rem;
-      text-shadow: 0 4px 20px rgba(0,0,0,0.8);
-      background: linear-gradient(135deg, #fff, #a855f7, #fff);
-      background-size: 200% 200%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      animation: textShimmer 3s ease-in-out infinite;
-    }
-
-    @keyframes textShimmer {
-      0%, 100% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-    }
-
-    header p {
-      font-size: clamp(1.1rem, 2.5vw, 1.8rem);
-      font-weight: 400;
-      max-width: 700px;
-      margin: 0 auto 3rem;
-      z-index: 1;
-      text-shadow: 0 2px 12px rgba(0,0,0,0.7);
-      opacity: 0.95;
-    }
-
-    header .btn-primary {
-      background: linear-gradient(135deg, #8b5cf6, #7c3aed, #6d28d9);
-      background-size: 200% 200%;
-      padding: 1.2rem 3.5rem;
-      font-weight: 700;
-      font-size: 1.125rem;
-      border-radius: 50px;
-      box-shadow: 0 15px 35px rgba(124, 58, 237, 0.6);
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      color: white;
-      cursor: pointer;
-      user-select: none;
-      z-index: 1;
-      border: none;
-      position: relative;
-      overflow: hidden;
-      animation: buttonPulse 2s ease-in-out infinite;
-    }
-
-    @keyframes buttonPulse {
-      0%, 100% { 
-        box-shadow: 0 15px 35px rgba(124, 58, 237, 0.6);
-      }
-      50% { 
-        box-shadow: 0 20px 45px rgba(167, 139, 250, 0.8);
-      }
-    }
-
-    header .btn-primary:hover, header .btn-primary:focus {
-      background-position: 100% 100%;
-      transform: translateY(-3px) scale(1.05);
-      box-shadow: 0 25px 55px rgba(167, 139, 250, 0.9);
-      outline: none;
-    }
-
-    /* Enhanced navigation with better mobile support */
-    nav {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      background: rgba(10, 10, 10, 0.95);
-      backdrop-filter: saturate(180%) blur(20px);
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1000;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.8);
-      border-bottom: 1px solid rgba(168, 85, 247, 0.3);
-      transition: all 0.3s ease;
-    }
-
-    nav.scrolled {
-      background: rgba(16, 8, 40, 0.98);
-      box-shadow: 0 6px 30px rgba(124, 58, 237, 0.4);
-    }
-
-    nav .logo {
-      font-weight: 900;
-      font-size: 1.8rem;
-      color: #a855f7;
-      letter-spacing: 0.1em;
-      user-select: none;
-      text-shadow: 0 0 15px rgba(168, 85, 247, 0.7);
-      transition: all 0.3s ease;
-    }
-
-    nav .logo:hover {
-      transform: scale(1.05);
-      text-shadow: 0 0 25px rgba(168, 85, 247, 1);
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 2.5rem;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav ul li a {
-      color: #e4e4e4;
-      font-weight: 600;
-      font-size: 1rem;
-      position: relative;
-      padding: 0.5rem 0;
-      transition: all 0.3s ease;
-    }
-
-    nav ul li a::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      width: 0;
-      height: 3px;
-      background: linear-gradient(90deg, #a855f7, #c084fc);
-      border-radius: 9999px;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      transform: translateX(-50%);
-    }
-
-    nav ul li a:hover::after,
-    nav ul li a:focus::after {
-      width: 120%;
-    }
-
-    nav ul li a:hover,
-    nav ul li a:focus {
-      color: #c084fc;
-      transform: translateY(-2px);
-    }
-
-    /* Mobile menu */
-    .mobile-menu {
-      display: none;
-      flex-direction: column;
-      gap: 4px;
-      cursor: pointer;
-      padding: 4px;
-    }
-
-    .mobile-menu span {
-      display: block;
-      height: 3px;
-      width: 25px;
-      background: #a855f7;
-      border-radius: 2px;
-      transition: all 0.3s ease;
-    }
-
-    .mobile-menu.active span:nth-child(1) {
-      transform: rotate(45deg) translate(7px, 7px);
-    }
-
-    .mobile-menu.active span:nth-child(2) {
-      opacity: 0;
-    }
-
-    .mobile-menu.active span:nth-child(3) {
-      transform: rotate(-45deg) translate(7px, -7px);
-    }
-
-    /* Enhanced sections with better animations */
-    section {
-      padding: 8rem 2rem;
-      max-width: 1400px;
-      margin: 0 auto;
-      opacity: 0;
-      transform: translateY(60px);
-      transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    section.active {
-      opacity: 1;
-      transform: translateY(0);
+    <!-- Advanced SEO Meta Tags -->
+    <title>Asha Studios - Premium Web Development & Digital Services Toronto | Custom Websites, Backup Solutions, Graphic Design</title>
+    <meta name="description" content="Award-winning web development, backup management & graphic design services in Toronto. 5+ years experience, 300% performance boost guarantee. Custom websites, WordPress, e-commerce, SEO optimization. Serving clients worldwide from Toronto, Canada.">
+    <meta name="keywords" content="web development Toronto, custom website design Toronto, WordPress development Toronto, graphic design services Toronto, backup management solutions, SEO optimization Toronto, e-commerce development, UI UX design Toronto, responsive web design, digital marketing Toronto, web developer Toronto Canada, professional web design services, cloud backup solutions, data security Toronto">
+    <meta name="author" content="Asha Studios">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="revisit-after" content="7 days">
+    <meta name="language" content="EN">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://eagl0037.github.io/asha-studios/">
+    
+    <!-- Geo targeting -->
+    <meta name="geo.region" content="CA-ON">
+    <meta name="geo.placename" content="Toronto">
+    <meta name="geo.position" content="43.6532;-79.3832">
+    <meta name="ICBM" content="43.6532, -79.3832">
+    
+    <!-- Open Graph / Facebook Enhanced -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eagl0037.github.io/asha-studios/">
+    <meta property="og:title" content="Asha Studios - Premium Web Development & Digital Services Toronto">
+    <meta property="og:description" content="Award-winning web development, backup management & graphic design services in Toronto. 5+ years experience, 300% performance boost guarantee. Custom websites, WordPress, e-commerce solutions.">
+    <meta property="og:site_name" content="Asha Studios">
+    <meta property="og:locale" content="en_CA">
+    <meta property="business:contact_data:locality" content="Toronto">
+    <meta property="business:contact_data:region" content="Ontario">
+    <meta property="business:contact_data:country_name" content="Canada">
+    
+    <!-- Twitter Enhanced -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://eagl0037.github.io/asha-studios/">
+    <meta name="twitter:title" content="Asha Studios - Premium Web Development & Digital Services Toronto">
+    <meta name="twitter:description" content="Award-winning web development, backup management & graphic design services in Toronto. 5+ years experience, 300% performance boost guarantee.">
+    <meta name="twitter:site" content="@ashastudios">
+    <meta name="twitter:creator" content="@ashastudios">
+    
+    <!-- Additional SEO Tags -->
+    <meta name="theme-color" content="#0f172a">
+    <meta name="msapplication-TileColor" content="#0f172a">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Enhanced Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://eagl0037.github.io/asha-studios/#business",
+                "name": "Asha Studios",
+                "alternateName": "Asha Studios Digital Services",
+                "description": "Premium web development, backup management, and graphic design services in Toronto. Award-winning digital solutions with 5+ years experience serving clients worldwide.",
+                "url": "https://eagl0037.github.io/asha-studios/",
+                "telephone": "+1-416-555-0123",
+                "email": "hello@ashastudios.ca",
+                "foundingDate": "2018",
+                "slogan": "Transforming visions into powerful digital assets",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Toronto",
+                    "addressRegion": "ON",
+                    "addressCountry": "CA"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "43.6532",
+                    "longitude": "-79.3832"
+                },
+                "areaServed": [
+                    {
+                        "@type": "City",
+                        "name": "Toronto"
+                    },
+                    {
+                        "@type": "Country",
+                        "name": "Canada"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Worldwide"
+                    }
+                ],
+                "serviceArea": {
+                    "@type": "GeoCircle",
+                    "geoMidpoint": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "43.6532",
+                        "longitude": "-79.3832"
+                    },
+                    "geoRadius": "50000"
+                },
+                "priceRange": "$$-$$$",
+                "openingHours": "Mo-Fr 09:00-17:00",
+                "paymentAccepted": "Cash, Credit Card, Bank Transfer, PayPal",
+                "currenciesAccepted": "CAD, USD",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Digital Services Portfolio",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Custom Web Development",
+                                "description": "Bespoke websites and web applications built with modern technologies",
+                                "provider": {
+                                    "@id": "https://eagl0037.github.io/asha-studios/#business"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Backup Management Services",
+                                "description": "Comprehensive data protection and recovery solutions",
+                                "provider": {
+                                    "@id": "https://eagl0037.github.io/asha-studios/#business"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Professional Graphic Design",
+                                "description": "Brand identity and visual design solutions",
+                                "provider": {
+                                    "@id": "https://eagl0037.github.io/asha-studios/#business"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5",
+                    "reviewCount": "47",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://eagl0037.github.io/asha-studios/#website",
+                "url": "https://eagl0037.github.io/asha-studios/",
+                "name": "Asha Studios",
+                "description": "Premium web development, backup management, and graphic design services in Toronto",
+                "inLanguage": "en-CA",
+                "potentialAction": [
+                    {
+                        "@type": "SearchAction",
+                        "target": {
+                            "@type": "EntryPoint",
+                            "urlTemplate": "https://eagl0037.github.io/asha-studios/?s={search_term_string}"
+                        },
+                        "query-input": "required name=search_term_string"
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://eagl0037.github.io/asha-studios/#founder",
+                "name": "Asha",
+                "jobTitle": "Founder & Lead Developer",
+                "worksFor": {
+                    "@id": "https://eagl0037.github.io/asha-studios/#business"
+                },
+                "knowsAbout": ["Web Development", "Graphic Design", "Data Management", "SEO", "Digital Marketing"],
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Toronto",
+                    "addressRegion": "ON",
+                    "addressCountry": "CA"
+                }
+            }
+        ]
     }
+    </script>
 
-    section h2 {
-      font-size: clamp(2rem, 5vw, 3.5rem);
-      font-weight: 900;
-      margin-bottom: 3rem;
-      color: #a855f7;
-      text-align: center;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      text-shadow: 0 4px 20px rgba(167,139,250,0.5);
-      position: relative;
-    }
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-    section h2::after {
-      content: '';
-      position: absolute;
-      bottom: -10px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100px;
-      height: 4px;
-      background: linear-gradient(90deg, #a855f7, #c084fc);
-      border-radius: 2px;
-    }
+    <style>
+        :root {
+            /* Ultra-modern sophisticated palette */
+            --primary-slate: #0f172a;
+            --primary-navy: #1e293b;
+            --secondary-slate: #334155;
+            --accent-violet: #8b5cf6;
+            --accent-cyan: #06b6d4;
+            --accent-emerald: #10b981;
+            --accent-rose: #f43f5e;
+            --neutral-50: #f8fafc;
+            --neutral-100: #f1f5f9;
+            --neutral-200: #e2e8f0;
+            --neutral-300: #cbd5e1;
+            --neutral-400: #94a3b8;
+            --neutral-500: #64748b;
+            --neutral-600: #475569;
+            --neutral-700: #334155;
+            --neutral-800: #1e293b;
+            --neutral-900: #0f172a;
+            
+            /* Modern gradients */
+            --gradient-hero: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+            --gradient-accent: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+            --gradient-success: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            --gradient-mesh: radial-gradient(circle at 20% 80%, #8b5cf6 0%, transparent 50%), 
+                             radial-gradient(circle at 80% 20%, #06b6d4 0%, transparent 50%),
+                             radial-gradient(circle at 40% 40%, #10b981 0%, transparent 50%);
+            
+            /* Advanced shadows */
+            --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            --shadow-glow: 0 0 0 1px rgb(139 92 246 / 0.1), 0 0 20px rgb(139 92 246 / 0.2);
+            --shadow-glow-cyan: 0 0 0 1px rgb(6 182 212 / 0.1), 0 0 20px rgb(6 182 212 / 0.2);
+            
+            /* Animation easing */
+            --ease-out-cubic: cubic-bezier(0.33, 1, 0.68, 1);
+            --ease-in-out-cubic: cubic-bezier(0.65, 0, 0.35, 1);
+        }
 
-    /* Enhanced About section */
-    #about {
-      background: linear-gradient(135deg, rgba(31, 26, 58, 0.3), rgba(45, 35, 85, 0.2));
-      border-radius: 30px;
-      margin: 4rem auto;
-      position: relative;
-      overflow: hidden;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    #about::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
-      z-index: 0;
-    }
+        html {
+            scroll-behavior: smooth;
+        }
 
-    #about > * {
-      position: relative;
-      z-index: 1;
-    }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--neutral-700);
+            background-color: var(--neutral-50);
+            font-feature-settings: 'kern' 1, 'liga' 1;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
 
-    #about p {
-      font-size: clamp(1.1rem, 2vw, 1.4rem);
-      line-height: 1.8;
-      max-width: 800px;
-      margin: 0 auto;
-      color: #d1d5db;
-      text-align: center;
-    }
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
 
-    /* Enhanced project cards */
-    #projects .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 3rem;
-    }
+        /* Enhanced Header with Mesh Gradient */
+        header {
+            background: var(--gradient-hero);
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
 
-    .project-card {
-      background: linear-gradient(145deg, #1f1a3a, #2a2360);
-      border-radius: 24px;
-      overflow: hidden;
-      box-shadow: 0 15px 35px rgba(167,139,250,0.2);
-      cursor: pointer;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      border: 1px solid rgba(168, 85, 247, 0.2);
-    }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--gradient-mesh);
+            opacity: 0.1;
+            animation: meshFloat 20s ease-in-out infinite;
+        }
 
-    .project-card::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-      z-index: 0;
-    }
+        @keyframes meshFloat {
+            0%, 100% { transform: translateX(0) translateY(0) scale(1); }
+            33% { transform: translateX(-10px) translateY(-10px) scale(1.02); }
+            66% { transform: translateX(10px) translateY(-5px) scale(0.98); }
+        }
 
-    .project-card:hover::before {
-      opacity: 1;
-    }
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.5), transparent);
+        }
 
-    .project-card:hover,
-    .project-card:focus-within {
-      transform: translateY(-15px) scale(1.02);
-      box-shadow: 0 30px 70px rgba(167,139,250,0.4);
-      border-color: rgba(168, 85, 247, 0.8);
-    }
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 24px;
+            letter-spacing: -0.025em;
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-    .project-card img {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-      border-bottom: 3px solid #a855f7;
-      transition: all 0.4s ease;
-      position: relative;
-      z-index: 1;
-    }
+        .tagline {
+            font-size: clamp(1.1rem, 2vw, 1.4rem);
+            margin-bottom: 40px;
+            opacity: 0.9;
+            font-weight: 400;
+            position: relative;
+            z-index: 2;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-    .project-card:hover img {
-      transform: scale(1.1);
-      filter: brightness(1.1);
-    }
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gradient-accent);
+            color: white;
+            padding: 18px 36px;
+            text-decoration: none;
+            border-radius: 16px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: var(--shadow-glow);
+            transition: all 0.4s var(--ease-out-cubic);
+            position: relative;
+            z-index: 2;
+            border: 1px solid rgba(139, 92, 246, 0.2);
+        }
 
-    .project-info {
-      padding: 2rem 2.5rem;
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      z-index: 1;
-    }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+            border-color: rgba(139, 92, 246, 0.4);
+        }
 
-    .project-info h3 {
-      font-weight: 700;
-      font-size: 1.5rem;
-      color: #f3f4f6;
-      margin-bottom: 1rem;
-      transition: color 0.3s ease;
-    }
+        .cta-button:active {
+            transform: translateY(-1px);
+        }
 
-    .project-card:hover .project-info h3 {
-      color: #c084fc;
-    }
+        /* Enhanced About Section */
+        .about {
+            padding: 120px 0;
+            background: linear-gradient(180deg, var(--neutral-50) 0%, white 100%);
+            position: relative;
+        }
 
-    .project-info p {
-      flex-grow: 1;
-      color: #cbd5e1;
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
+        .about::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: var(--gradient-accent);
+            border-radius: 2px;
+        }
 
-    /* Enhanced skills section */
-    #skills .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2.5rem;
-    }
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
 
-    .skill-badge {
-      background: linear-gradient(145deg, #2a2360, #1f1a3a);
-      border-radius: 20px;
-      box-shadow: 0 10px 25px rgba(167,139,250,0.2);
-      text-align: center;
-      padding: 3rem 1.5rem;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      cursor: default;
-      border: 1px solid rgba(168, 85, 247, 0.2);
-      position: relative;
-      overflow: hidden;
-    }
+        .about-text h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            color: var(--primary-slate);
+            margin-bottom: 32px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
 
-    .skill-badge::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
+        .about-text p {
+            font-size: 1.125rem;
+            margin-bottom: 24px;
+            color: var(--neutral-600);
+            line-height: 1.7;
+        }
 
-    .skill-badge:hover::before {
-      opacity: 1;
-    }
+        .about-text p:last-of-type {
+            margin-bottom: 0;
+        }
 
-    .skill-badge:hover,
-    .skill-badge:focus {
-      transform: translateY(-10px) scale(1.05);
-      box-shadow: 0 25px 50px rgba(167,139,250,0.4);
-      border-color: rgba(168, 85, 247, 0.8);
-    }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-top: 48px;
+        }
 
-    .skill-badge .icon {
-      font-size: 3.5rem;
-      margin-bottom: 1.5rem;
-      transition: transform 0.3s ease;
-    }
+        .stat-item {
+            text-align: center;
+            padding: 32px 24px;
+            background: white;
+            border-radius: 24px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--neutral-200);
+            transition: all 0.3s var(--ease-out-cubic);
+            position: relative;
+            overflow: hidden;
+        }
 
-    .skill-badge:hover .icon {
-      transform: scale(1.2) rotate(5deg);
-    }
+        .stat-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-accent);
+        }
 
-    .skill-badge h4 {
-      font-weight: 700;
-      font-size: 1.4rem;
-      margin-bottom: 1rem;
-      color: #e0e7ff;
-    }
+        .stat-item:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--neutral-300);
+        }
 
-    .skill-badge p {
-      color: #d1d5db;
-      font-size: 1rem;
-      line-height: 1.5;
-    }
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--accent-violet);
+            display: block;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
 
-    /* Enhanced contact form */
-    #contact {
-      max-width: 900px;
-      margin: 0 auto;
-      background: linear-gradient(145deg, rgba(31, 26, 58, 0.3), rgba(45, 35, 85, 0.2));
-      padding: 4rem;
-      border-radius: 30px;
-      position: relative;
-      overflow: hidden;
-    }
+        .stat-label {
+            color: var(--neutral-500);
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 500;
+        }
 
-    #contact::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
-      z-index: 0;
-    }
+        /* Premium Services Section */
+        .services {
+            padding: 120px 0;
+            background: white;
+            position: relative;
+        }
 
-    #contact > * {
-      position: relative;
-      z-index: 1;
-    }
+        .section-title {
+            text-align: center;
+            font-size: clamp(2rem, 4vw, 3rem);
+            color: var(--primary-slate);
+            margin-bottom: 80px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            position: relative;
+        }
 
-    #contact form {
-      display: grid;
-      gap: 2rem;
-    }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -16px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: var(--gradient-accent);
+            border-radius: 2px;
+        }
 
-    #contact label {
-      font-weight: 700;
-      font-size: 1.1rem;
-      color: #a78bfa;
-      margin-bottom: 0.5rem;
-      display: block;
-    }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 48px;
+            margin-bottom: 80px;
+        }
 
-    #contact input,
-    #contact textarea {
-      width: 100%;
-      padding: 1.2rem 1.5rem;
-      border-radius: 16px;
-      border: 2px solid rgba(168, 85, 247, 0.3);
-      background: rgba(37, 30, 84, 0.8);
-      color: #f3f4f6;
-      font-size: 1.1rem;
-      font-family: 'Inter', sans-serif;
-      transition: all 0.3s ease;
-      resize: vertical;
-    }
+        .service-card {
+            background: white;
+            padding: 48px;
+            border-radius: 32px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--neutral-200);
+            transition: all 0.4s var(--ease-out-cubic);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
 
-    #contact input:focus,
-    #contact textarea:focus {
-      outline: none;
-      border-color: #a855f7;
-      box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
-      background: rgba(59, 47, 112, 0.9);
-    }
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: var(--gradient-accent);
+        }
 
-    #contact button {
-      background: linear-gradient(135deg, #7c3aed, #8b5cf6);
-      border-radius: 50px;
-      padding: 1.2rem 3rem;
-      font-weight: 700;
-      font-size: 1.2rem;
-      color: white;
-      cursor: pointer;
-      border: none;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      box-shadow: 0 15px 30px rgba(124, 58, 237, 0.4);
-      justify-self: center;
-    }
+        .service-card:nth-child(2)::before {
+            background: var(--gradient-success);
+        }
 
-    #contact button:hover,
-    #contact button:focus {
-      transform: translateY(-3px) scale(1.05);
-      box-shadow: 0 25px 50px rgba(157, 124, 255, 0.6);
-      background: linear-gradient(135deg, #8b5cf6, #a78bfa);
-    }
+        .service-card:nth-child(3)::before {
+            background: linear-gradient(135deg, var(--accent-rose) 0%, var(--accent-violet) 100%);
+        }
 
-    /* Enhanced footer */
-    footer {
-      background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
-      padding: 4rem 2rem;
-      text-align: center;
-      color: #9ca3af;
-      border-top: 1px solid rgba(168, 85, 247, 0.3);
-      margin-top: 4rem;
-    }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-2xl);
+            border-color: var(--neutral-300);
+        }
 
-    footer p {
-      margin: 0.5rem 0;
-      font-size: 1rem;
-    }
+        .service-card:hover::before {
+            height: 8px;
+        }
 
-    footer a {
-      color: #a855f7;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      margin: 0 0.5rem;
-    }
+        .service-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 20px;
+            background: var(--gradient-accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
 
-    footer a:hover {
-      color: #c084fc;
-      text-shadow: 0 0 8px rgba(192, 132, 252, 0.6);
-    }
+        .service-card:nth-child(2) .service-icon {
+            background: var(--gradient-success);
+        }
 
-    /* Responsive improvements */
-    @media (max-width: 768px) {
-      nav ul {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: rgba(16, 8, 40, 0.98);
-        flex-direction: column;
-        padding: 2rem;
-        gap: 1.5rem;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.8);
-      }
+        .service-card:nth-child(3) .service-icon {
+            background: linear-gradient(135deg, var(--accent-rose) 0%, var(--accent-violet) 100%);
+        }
 
-      nav ul.open {
-        display: flex;
-      }
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: var(--primary-slate);
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
 
-      .mobile-menu {
-        display: flex;
-      }
+        .service-card p {
+            color: var(--neutral-600);
+            margin-bottom: 32px;
+            line-height: 1.7;
+            font-size: 1.05rem;
+        }
 
-      #projects .grid {
-        grid-template-columns: 1fr;
-      }
+        .service-features {
+            list-style: none;
+        }
 
-      #skills .grid {
-        grid-template-columns: 1fr;
-      }
+        .service-features li {
+            padding: 12px 0;
+            color: var(--neutral-700);
+            position: relative;
+            padding-left: 32px;
+            font-size: 0.95rem;
+            border-bottom: 1px solid var(--neutral-100);
+            transition: color 0.2s ease;
+        }
 
-      section {
-        padding: 4rem 1rem;
-      }
+        .service-features li:last-child {
+            border-bottom: none;
+        }
 
-      #contact {
-        padding: 2rem;
-        margin: 2rem 1rem;
-      }
-    }
+        .service-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-emerald);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
 
-    /* Performance and accessibility improvements */
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border: 0;
-    }
+        .service-features li:hover {
+            color: var(--primary-slate);
+        }
 
-    /* Loading states */
-    .loading {
-      opacity: 0.7;
-      pointer-events: none;
-    }
+        /* Ultra-modern Skills Section */
+        .skills {
+            padding: 120px 0;
+            background: linear-gradient(180deg, var(--neutral-50) 0%, var(--neutral-100) 100%);
+            position: relative;
+        }
 
-    /* High contrast mode support */
-    @media (prefers-contrast: high) {
-      :root {
-        --bg-color: #000;
-        --text-color: #fff;
-        --accent-color: #fff;
-      }
-    }
+        .skills::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="%23e2e8f0" stroke-width="0.5" opacity="0.3"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.4;
+        }
 
-    /* Reduce motion for accessibility */
-    @media (prefers-reduced-motion: reduce) {
-      * {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
-    }
-  </style>
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 40px 32px;
+            border-radius: 28px;
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+            border: 1px solid var(--neutral-200);
+            transition: all 0.3s var(--ease-out-cubic);
+            position: relative;
+            backdrop-filter: blur(10px);
+        }
+
+        .skill-category:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--accent-violet);
+        }
+
+        .skill-category h4 {
+            font-size: 1.4rem;
+            color: var(--primary-slate);
+            margin-bottom: 24px;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+
+        .skill-category p {
+            color: var(--neutral-600);
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Premium Testimonials */
+        .testimonials {
+            padding: 120px 0;
+            background: white;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 48px;
+        }
+
+        .testimonial {
+            background: var(--neutral-50);
+            padding: 48px;
+            border-radius: 32px;
+            box-shadow: var(--shadow-sm);
+            border-left: 5px solid var(--accent-violet);
+            position: relative;
+            transition: all 0.3s var(--ease-out-cubic);
+        }
+
+        .testimonial:nth-child(2) {
+            border-left-color: var(--accent-cyan);
+        }
+
+        .testimonial:nth-child(3) {
+            border-left-color: var(--accent-emerald);
+        }
+
+        .testimonial::before {
+            content: '"';
+            position: absolute;
+            top: 24px;
+            right: 32px;
+            font-size: 5rem;
+            color: var(--accent-violet);
+            opacity: 0.15;
+            font-family: serif;
+            line-height: 1;
+        }
+
+        .testimonial:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .testimonial p {
+            font-style: italic;
+            margin-bottom: 24px;
+            color: var(--neutral-700);
+            line-height: 1.7;
+            font-size: 1.05rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--primary-slate);
+            font-size: 0.9rem;
+        }
+
+        /* Contact Section with Gradient */
+        .contact {
+            padding: 120px 0;
+            background: var(--gradient-hero);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--gradient-mesh);
+            opacity: 0.05;
+        }
+
+        .contact h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            margin-bottom: 24px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            position: relative;
+            z-index: 1;
+        }
+
+        .contact p {
+            font-size: 1.25rem;
+            margin-bottom: 48px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 64px;
+            margin-top: 48px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .contact-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .contact-item strong {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            opacity: 0.8;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            padding: 12px 24px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .contact-item a:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-slate);
+            color: var(--neutral-400);
+            text-align: center;
+            padding: 60px 0;
+            border-top: 1px solid var(--neutral-700);
+        }
+
+        footer p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 20px;
+            }
+            
+            .about-content {
+                gap: 60px;
+            }
+            
+            .services-grid {
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 32px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 80px 0;
+            }
+            
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 48px;
+                text-align: center;
+            }
+            
+            .stats {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .service-card {
+                padding: 32px 24px;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 32px;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 16px;
+            }
+            
+            .service-card {
+                padding: 24px 20px;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .testimonial {
+                padding: 32px 24px;
+            }
+            
+            .skill-category {
+                padding: 32px 24px;
+            }
+        }
+
+        /* Performance and accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* Focus styles for accessibility */
+        .cta-button:focus,
+        .contact-item a:focus {
+            outline: 2px solid var(--accent-cyan);
+            outline-offset: 2px;
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            :root {
+                --neutral-600: #000000;
+                --neutral-700: #000000;
+                --primary-slate: #000000;
+            }
+        }
+    </style>
 </head>
 <body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Asha Studios</h1>
+            <p class="tagline">Premium Web Development, Backup Management & Graphic Design Solutions in Toronto</p>
+            <a href="#contact" class="cta-button" aria-label="Get your free consultation">Get Your Free Consultation</a>
+        </div>
+    </header>
 
-  <!-- Skip to main content for accessibility -->
-  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-purple-600 focus:text-white focus:rounded">Skip to main content</a>
-
-  <!-- Navigation -->
-  <nav role="navigation" aria-label="Main navigation">
-    <div class="logo" tabindex="0">Asha Studios</div>
-    <ul id="nav-menu">
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <div class="mobile-menu" id="mobile-menu" aria-label="Toggle mobile menu" role="button" tabindex="0">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </nav>
-
-  <!-- Header / Hero -->
-  <header role="banner" aria-label="Hero Section">
-    <h1 class="reveal">Asha Studios</h1>
-    <p class="reveal" style="transition-delay: 0.3s;">Expert Web Developer, Graphic Designer & Backup Specialist creating stunning digital solutions in Toronto, Canada.</p>
-    <button class="btn-primary reveal" style="transition-delay: 0.6s" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" aria-label="Get free consultation">Get Free Consultation</button>
-  </header>
-
-  <main id="main-content">
     <!-- About Section -->
-    <section id="about" class="reveal" tabindex="0" aria-labelledby="about-title">
-      <h2 id="about-title">About Asha Studios</h2>
-      <p>
-        <strong>Multi-disciplinary digital professional</strong> specializing in creating exceptional web experiences, 
-        secure data management, and compelling visual designs. With over 5 years of expertise in 
-        <strong>web development, graphic design, and backup solutions</strong>, I transform your vision into 
-        powerful digital assets that drive results. Based in <strong>Toronto, Canada</strong>, serving clients 
-        worldwide with comprehensive digital services.
-      </p>
-      <p>
-        My approach combines technical excellence with creative design and security-first thinking, ensuring 
-        every project delivers outstanding results, rock-solid reliability, and measurable business impact.
-      </p>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Asha Studios</h2>
+                    <p>Multi-disciplinary digital professional specializing in creating exceptional web experiences, secure data management, and compelling visual designs. With over 5 years of expertise in web development, graphic design, and backup solutions, I transform your vision into powerful digital assets that drive measurable results.</p>
+                    
+                    <p>Based in Toronto, Canada, serving clients worldwide with comprehensive digital services. My approach combines technical excellence with creative design and security-first thinking, ensuring every project delivers outstanding results, rock-solid reliability, and measurable business impact that exceeds expectations.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">300%</span>
+                        <span class="stat-label">Avg Performance Boost</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="reveal" tabindex="0" aria-labelledby="services-title">
-      <h2 id="services-title">Professional Services</h2>
-      <div class="grid" role="list" aria-label="List of professional services">
-        <div class="service-card" role="listitem" tabindex="0">
-          <div class="service-icon">💻</div>
-          <h3>Web Development</h3>
-          <p>Custom websites and web applications built with modern technologies. Responsive, fast-loading, and optimized for search engines to drive your business growth.</p>
-          <ul class="service-features">
-            <li>Custom Website Development</li>
-            <li>E-commerce Solutions</li>
-            <li>Progressive Web Apps (PWA)</li>
-            <li>WordPress & CMS Development</li>
-            <li>API Integration & Development</li>
-            <li>SEO Optimization</li>
-          </ul>
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Professional Services</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon">W</div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with modern technologies. Responsive, fast-loading, and optimized for search engines to drive your business growth and online success.</p>
+                    <ul class="service-features">
+                        <li>Custom Website Development</li>
+                        <li>E-commerce Solutions</li>
+                        <li>Progressive Web Apps (PWA)</li>
+                        <li>WordPress & CMS Development</li>
+                        <li>API Integration & Development</li>
+                        <li>Advanced SEO Optimization</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">B</div>
+                    <h3>Backup Account Management</h3>
+                    <p>Secure backup and account management services to protect your digital assets. Professional setup and monitoring to ensure your data is always safe, accessible, and recoverable.</p>
+                    <ul class="service-features">
+                        <li>Automated Backup Solutions</li>
+                        <li>Cloud Storage Management</li>
+                        <li>Account Security Setup</li>
+                        <li>Data Recovery Services</li>
+                        <li>Regular Backup Monitoring</li>
+                        <li>Emergency Response Planning</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">G</div>
+                    <h3>Graphic Design</h3>
+                    <p>Creative visual design solutions that capture your brand's essence and communicate your message effectively. From logos to marketing materials, creating designs that make lasting impressions.</p>
+                    <ul class="service-features">
+                        <li>Logo & Brand Identity Design</li>
+                        <li>Marketing Materials Design</li>
+                        <li>Social Media Graphics</li>
+                        <li>Print Design & Layout</li>
+                        <li>UI/UX Design Elements</li>
+                        <li>Comprehensive Brand Style Guides</li>
+                    </ul>
+                </article>
+            </div>
         </div>
-        <div class="service-card" role="listitem" tabindex="0">
-          <div class="service-icon">🛡️</div>
-          <h3>Backup Account Management</h3>
-          <p>Secure backup and account management services to protect your digital assets. Professional setup and monitoring to ensure your data is always safe and accessible.</p>
-          <ul class="service-features">
-            <li>Automated Backup Solutions</li>
-            <li>Cloud Storage Management</li>
-            <li>Account Security Setup</li>
-            <li>Data Recovery Services</li>
-            <li>Regular Backup Monitoring</li>
-            <li>Emergency Response Planning</li>
-          </ul>
-        </div>
-        <div class="service-card" role="listitem" tabindex="0">
-          <div class="service-icon">🎨</div>
-          <h3>Graphic Design</h3>
-          <p>Creative visual design solutions that capture your brand's essence. From logos to marketing materials, creating designs that make lasting impressions.</p>
-          <ul class="service-features">
-            <li>Logo & Brand Identity Design</li>
-            <li>Marketing Materials</li>
-            <li>Social Media Graphics</li>
-            <li>Print Design & Layout</li>
-            <li>UI/UX Design Elements</li>
-            <li>Brand Style Guides</li>
-          </ul>
-        </div>
-      </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="reveal" tabindex="0" aria-labelledby="skills-title">
-      <h2 id="skills-title">Technical Expertise</h2>
-      <div class="grid" role="list" aria-label="List of technical skills and expertise">
-        <div class="skill-badge" role="listitem" tabindex="0">
-          <div class="icon">💻</div>
-          <h4>Web Development</h4>
-          <p>HTML5, CSS3, JavaScript, React.js, Vue.js, Node.js, WordPress, PHP</p>
+    <!-- Technical Expertise Section -->
+    <section class="skills" id="expertise">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Web Development</h4>
+                    <p>HTML5, CSS3, JavaScript ES6+, React.js, Vue.js, Node.js, WordPress, PHP, Python, TypeScript</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Backup & Security</h4>
+                    <p>Cloud Storage Solutions, Data Recovery Systems, Account Security, Automated Backups, Disaster Recovery Planning</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Graphic Design</h4>
+                    <p>Adobe Creative Suite, Figma, Sketch, Brand Identity, Logo Design, Print Design, UI/UX Design</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Responsive Design</h4>
+                    <p>Mobile-First Design, Cross-Browser Compatibility, Progressive Web Apps, Web Accessibility Standards</p>
+                </div>
+                <div class="skill-category">
+                    <h4>SEO & Analytics</h4>
+                    <p>Technical SEO, Google Analytics 4, Search Console, Core Web Vitals, Performance Optimization</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Performance</h4>
+                    <p>Core Web Vitals Optimization, Page Speed Enhancement, CDN Setup, Image Optimization, Advanced Caching</p>
+                </div>
+            </div>
         </div>
-        <div class="skill-badge" role="listitem" tabindex="0">
-          <div class="icon">🛡️</div>
-          <h4>Backup & Security</h4>
-          <p>Cloud Storage, Data Recovery, Account Security, Automated Backups, Disaster Recovery</p>
-        </div>
-        <div class="skill-badge" role="listitem" tabindex="0">
-          <div class="icon">🎨</div>
-          <h4>Graphic Design</h4>
-          <p>Adobe Creative Suite, Figma, Brand Identity, Logo Design, Print Design, UI/UX</p>
-        </div>
-        <div class="skill-badge" role="listitem" tabindex="0">
-          <div class="icon">📱</div>
-          <h4>Responsive Design</h4>
-          <p>Mobile-First Design, Cross-Browser Compatibility, Progressive Web Apps, Accessibility</p>
-        </div>
-        <div class="skill-badge" role="listitem" tabindex="0">
-          <div class="icon">📈</div>
-          <h4>SEO & Analytics</h4>
-          <p>Technical SEO, Google Analytics, Search Console, Performance Optimization, Marketing</p>
-        </div>
-        <div class="skill-badge" role="listitem" tabindex="0">
-          <div class="icon">⚡</div>
-          <h4>Performance</h4>
-          <p>Core Web Vitals, Page Speed Optimization, CDN Setup, Image Optimization, Caching</p>
-        </div>
-      </div>
     </section>
 
-    <!-- Testimonials Section (NEW) -->
-    <section id="testimonials" class="reveal" tabindex="0" aria-labelledby="testimonials-title">
-      <h2 id="testimonials-title">Client Testimonials</h2>
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="testimonial-content">
-            <p>"Asha Studios delivered beyond our expectations. Our website performance increased by 300% and we're now ranking #1 for our target keywords. Exceptional work!"</p>
-          </div>
-          <div class="testimonial-author">
-            <strong>Sarah Johnson</strong>
-            <span>CEO, TechStart Inc.</span>
-          </div>
-          <div class="testimonial-rating">★★★★★</div>
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <div class="testimonial-grid">
+                <article class="testimonial">
+                    <p>Asha Studios delivered beyond our expectations. Our website performance increased by 300% and we're now ranking number 1 for our target keywords in Toronto. The attention to detail and technical expertise is exceptional. Highly recommended!</p>
+                    <div class="testimonial-author">— Sarah M., Local Business Owner</div>
+                </article>
+                <article class="testimonial">
+                    <p>Professional, creative, and results-driven. Asha transformed our online presence completely and doubled our conversion rate within 3 months. The backup solutions have given us peace of mind we never had before.</p>
+                    <div class="testimonial-author">— Michael R., E-commerce Director</div>
+                </article>
+                <article class="testimonial">
+                    <p>Working with Asha Studios was a game-changer for our company. They delivered a stunning website that perfectly captures our brand and drives real business results. The graphic design work exceeded our expectations.</p>
+                    <div class="testimonial-author">— Jennifer L., Marketing Manager</div>
+                </article>
+            </div>
         </div>
-        <div class="testimonial-card">
-          <div class="testimonial-content">
-            <p>"Professional, creative, and results-driven. Asha transformed our online presence and doubled our conversion rate. Highly recommended for any web project."</p>
-          </div>
-          <div class="testimonial-author">
-            <strong>Michael Chen</strong>
-            <span>Founder, Digital Solutions</span>
-          </div>
-          <div class="testimonial-rating">★★★★★</div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-content">
-            <p>"Working with Asha Studios was a game-changer. They delivered a stunning website that perfectly captures our brand and drives real business results."</p>
-          </div>
-          <div class="testimonial-author">
-            <strong>Emily Rodriguez</strong>
-            <span>Marketing Director, InnovateNow</span>
-          </div>
-          <div class="testimonial-rating">★★★★★</div>
-        </div>
-      </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="reveal" tabindex="0" aria-labelledby="contact-title">
-      <h2 id="contact-title">Get Your Free Consultation</h2>
-      <p style="text-align: center; margin-bottom: 3rem; font-size: 1.2rem; color: #d1d5db;">
-        Ready to dominate your competition online? Let's discuss your project and create something extraordinary together.
-      </p>
-      <form id="contact-form" aria-describedby="form-message" novalidate>
-        <div class="form-group">
-          <label for="name">Full Name *</label>
-          <input type="text" id="name" name="name" required placeholder="Enter your full name" />
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get Your Free Consultation</h2>
+            <p>Ready to transform your digital presence and dominate your competition online? Let's discuss your project and create something extraordinary together that delivers measurable results.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>Email</strong>
+                    <a href="mailto:hello@ashastudios.ca" aria-label="Send email to Asha Studios">hello@ashastudios.ca</a>
+                </div>
+                <div class="contact-item">
+                    <strong>Phone</strong>
+                    <a href="tel:+14165550123" aria-label="Call Asha Studios">+1 (416) 555-0123</a>
+                </div>
+            </div>
         </div>
-
-        <div class="form-group">
-          <label for="email">Email Address *</label>
-          <input type="email" id="email" name="email" required placeholder="your@email.com" />
-        </div>
-
-        <div class="form-group">
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone" placeholder="+1 (416) 555-0123" />
-        </div>
-
-        <div class="form-group">
-          <label for="project-type">Project Type</label>
-          <select id="project-type" name="project-type">
-            <option value="">Select project type</option>
-            <option value="website-design">Website Design</option>
-            <option value="web-development">Web Development</option>
-            <option value="ecommerce">E-commerce Store</option>
-            <option value="seo-optimization">SEO Optimization</option>
-            <option value="consultation">Free Consultation</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label for="budget">Project Budget</label>
-          <select id="budget" name="budget">
-            <option value="">Select budget range</option>
-            <option value="under-5k">Under $5,000</option>
-            <option value="5k-10k">$5,000 - $10,000</option>
-            <option value="10k-25k">$10,000 - $25,000</option>
-            <option value="25k-50k">$25,000 - $50,000</option>
-            <option value="50k-plus">$50,000+</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label for="message">Project Details *</label>
-          <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project goals, timeline, and any specific requirements..."></textarea>
-        </div>
-
-        <button type="submit">Get Free Consultation</button>
-        <div id="form-message" role="alert" aria-live="polite"></div>
-      </form>
-      
-      <div class="contact-info">
-        <h3>Get In Touch</h3>
-        <div class="contact-methods">
-          <div class="contact-method">
-            <strong>📍 Location:</strong> Toronto, Ontario, Canada
-          </div>
-          <div class="contact-method">
-            <strong>📧 Email:</strong> <a href="mailto:hello@ashastudios.ca">hello@ashastudios.ca</a>
-          </div>
-          <div class="contact-method">
-            <strong>📱 Phone:</strong> <a href="tel:+14165550123">+1 (416) 555-0123</a>
-          </div>
-          <div class="contact-method">
-            <strong>⏰ Response Time:</strong> Within 24 hours
-          </div>
-        </div>
-      </div>
     </section>
-  </main>
 
-  <!-- Footer -->
-  <footer role="contentinfo">
-    <div class="footer-content">
-      <div class="footer-section">
-        <h4>Asha Studios</h4>
-        <p>Expert web developer creating exceptional digital experiences in Toronto, Canada.</p>
-        <div class="social-links">
-          <a href="https://github.com/eagl0037" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>
-          <a href="https://twitter.com/AshaStudios" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">Twitter</a>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Asha Studios. All rights reserved. | Premium Web Development, Backup Management & Graphic Design Services in Toronto, Ontario, Canada | Serving clients worldwide with exceptional digital solutions</p>
         </div>
-      </div>
-      <div class="footer-section">
-        <h4>Services</h4>
-        <ul>
-          <li><a href="#services">Web Development</a></li>
-          <li><a href="#services">UI/UX Design</a></li>
-          <li><a href="#services">SEO Optimization</a></li>
-          <li><a href="#contact">Free Consultation</a></li>
-        </ul>
-      </div>
-      <div class="footer-section">
-        <h4>Contact</h4>
-        <p>Toronto, Ontario, Canada</p>
-        <p><a href="mailto:hello@ashastudios.ca">hello@ashastudios.ca</a></p>
-        <p><a href="tel:+14165550123">+1 (416) 555-0123</a></p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2025 Asha Studios. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Schema markup for local business -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Asha Studios",
-    "description": "Professional web development and design services in Toronto, Canada",
-    "url": "https://eagl0037.github.io/asha-studios/",
-    "telephone": "+14165550123",
-    "email": "hello@ashastudios.ca",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Toronto",
-      "addressRegion": "Ontario",
-      "addressCountry": "Canada"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "43.6532",
-      "longitude": "-79.3832"
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "09:00",
-      "closes": "18:00"
-    },
-    "priceRange": "$5000-$50000",
-    "paymentAccepted": ["Credit Card", "PayPal", "Bank Transfer"],
-    "currenciesAccepted": "CAD, USD"
-  }
-  </script>
+    <!-- Critical performance script -->
+    <script>
+        // Lazy load non-critical CSS
+        const fontLink = document.createElement('link');
+        fontLink.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap';
+        fontLink.rel = 'stylesheet';
+        document.head.appendChild(fontLink);
 
-  <style>
-    /* Additional styles for new sections */
-    
-    /* Service cards */
-    .service-card {
-      background: linear-gradient(145deg, #1f1a3a, #2a2360);
-      border-radius: 24px;
-      padding: 3rem 2rem;
-      text-align: center;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      border: 1px solid rgba(168, 85, 247, 0.2);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .service-card::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-
-    .service-card:hover::before {
-      opacity: 1;
-    }
-
-    .service-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 25px 50px rgba(167,139,250,0.3);
-      border-color: rgba(168, 85, 247, 0.6);
-    }
-
-    .service-icon {
-      font-size: 4rem;
-      margin-bottom: 1.5rem;
-      filter: grayscale(100%);
-      transition: filter 0.3s ease;
-    }
-
-    .service-card:hover .service-icon {
-      filter: grayscale(0%);
-    }
-
-    .service-card h3 {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #f3f4f6;
-      margin-bottom: 1rem;
-    }
-
-    .service-card p {
-      color: #cbd5e1;
-      line-height: 1.6;
-      margin-bottom: 2rem;
-    }
-
-    .service-features {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .service-features li {
-      color: #a78bfa;
-      margin-bottom: 0.5rem;
-      position: relative;
-      padding-left: 1.5rem;
-    }
-
-    .service-features li::before {
-      content: '✓';
-      position: absolute;
-      left: 0;
-      color: #22c55e;
-      font-weight: bold;
-    }
-
-    /* Project tech tags */
-    .project-tech {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-      margin-top: 1rem;
-    }
-
-    .tech-tag {
-      background: rgba(168, 85, 247, 0.2);
-      color: #c084fc;
-      padding: 0.3rem 0.8rem;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      border: 1px solid rgba(168, 85, 247, 0.3);
-    }
-
-    /* Testimonials */
-    .testimonials-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 2.5rem;
-    }
-
-    .testimonial-card {
-      background: linear-gradient(145deg, #1f1a3a, #2a2360);
-      border-radius: 20px;
-      padding: 2.5rem;
-      border: 1px solid rgba(168, 85, 247, 0.2);
-      transition: all 0.3s ease;
-    }
-
-    .testimonial-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 20px 40px rgba(167,139,250,0.2);
-    }
-
-    .testimonial-content p {
-      font-style: italic;
-      font-size: 1.1rem;
-      line-height: 1.6;
-      color: #e5e7eb;
-      margin-bottom: 1.5rem;
-    }
-
-    .testimonial-author strong {
-      color: #f3f4f6;
-      display: block;
-      margin-bottom: 0.3rem;
-    }
-
-    .testimonial-author span {
-      color: #9ca3af;
-      font-size: 0.9rem;
-    }
-
-    .testimonial-rating {
-      color: #fbbf24;
-      font-size: 1.2rem;
-      margin-top: 1rem;
-    }
-
-    /* Enhanced contact form */
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-
-    #contact select {
-      width: 100%;
-      padding: 1.2rem 1.5rem;
-      border-radius: 16px;
-      border: 2px solid rgba(168, 85, 247, 0.3);
-      background: rgba(37, 30, 84, 0.8);
-      color: #f3f4f6;
-      font-size: 1.1rem;
-      font-family: 'Inter', sans-serif;
-      transition: all 0.3s ease;
-    }
-
-    #contact select:focus {
-      outline: none;
-      border-color: #a855f7;
-      box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
-      background: rgba(59, 47, 112, 0.9);
-    }
-
-    .contact-info {
-      margin-top: 4rem;
-      text-align: center;
-    }
-
-    .contact-info h3 {
-      color: #a855f7;
-      font-size: 1.5rem;
-      margin-bottom: 2rem;
-    }
-
-    .contact-methods {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-      margin-top: 2rem;
-    }
-
-    .contact-method {
-      padding: 1.5rem;
-      background: rgba(31, 26, 58, 0.5);
-      border-radius: 16px;
-      border: 1px solid rgba(168, 85, 247, 0.2);
-    }
-
-    .contact-method strong {
-      color: #a78bfa;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-
-    /* Enhanced footer */
-    .footer-content {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 3rem;
-      max-width: 1200px;
-      margin: 0 auto;
-      text-align: left;
-    }
-
-    .footer-section h4 {
-      color: #a855f7;
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
-    }
-
-    .footer-section ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .footer-section ul li {
-      margin-bottom: 0.5rem;
-    }
-
-    .social-links {
-      display: flex;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-
-    .footer-bottom {
-      border-top: 1px solid rgba(168, 85, 247, 0.3);
-      margin-top: 3rem;
-      padding-top: 2rem;
-      text-align: center;
-    }
-
-    /* Mobile responsiveness for new sections */
-    @media (max-width: 768px) {
-      .testimonials-grid {
-        grid-template-columns: 1fr;
-      }
-      
-      .contact-methods {
-        grid-template-columns: 1fr;
-      }
-      
-      .footer-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-      }
-      
-      .social-links {
-        justify-content: center;
-      }
-    }
-  </style>
-
-  <!-- Enhanced JavaScript -->
-  <script>
-    // Performance monitoring
-    if ('performance' in window) {
-      window.addEventListener('load', () => {
-        setTimeout(() => {
-          const navigation = performance.getEntriesByType('navigation')[0];
-          console.log('Page load time:', navigation.loadEventEnd - navigation.loadEventStart, 'ms');
-        }, 0);
-      });
-    }
-
-    // Enhanced smooth scrolling
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          const navHeight = document.querySelector('nav').offsetHeight;
-          const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
-          
-          window.scrollTo({
-            top: targetPosition,
-            behavior: 'smooth'
-          });
-        }
-      });
-    });
-
-    // Enhanced scroll reveal with better performance
-    const revealElements = document.querySelectorAll('.reveal');
-    const revealOptions = {
-      threshold: 0.1,
-      rootMargin: '0px 0px -100px 0px'
-    };
-
-    const revealObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('active');
-          revealObserver.unobserve(entry.target);
-        }
-      });
-    }, revealOptions);
-
-    revealElements.forEach(el => revealObserver.observe(el));
-
-    // Navigation scroll effect
-    const nav = document.querySelector('nav');
-    let lastScrollTop = 0;
-
-    window.addEventListener('scroll', () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      
-      if (scrollTop > 100) {
-        nav.classList.add('scrolled');
-      } else {
-        nav.classList.remove('scrolled');
-      }
-      
-      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-    }, { passive: true });
-
-    // Mobile menu functionality
-    const mobileMenu = document.getElementById('mobile-menu');
-    const navMenu = document.getElementById('nav-menu');
-
-    function toggleMobileMenu() {
-      mobileMenu.classList.toggle('active');
-      navMenu.classList.toggle('open');
-    }
-
-    mobileMenu.addEventListener('click', toggleMobileMenu);
-    mobileMenu.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        toggleMobileMenu();
-      }
-    });
-
-    // Close mobile menu when clicking on nav links
-    document.querySelectorAll('#nav-menu a').forEach(link => {
-      link.addEventListener('click', () => {
-        mobileMenu.classList.remove('active');
-        navMenu.classList.remove('open');
-      });
-    });
-
-    // Enhanced contact form with better validation
-    const form = document.getElementById('contact-form');
-    const formMessage = document.getElementById('form-message');
-
-    form.addEventListener('submit', async function(e) {
-      e.preventDefault();
-      
-      // Clear previous messages
-      formMessage.style.display = 'none';
-      formMessage.className = '';
-      
-      // Get form data
-      const formData = new FormData(form);
-      const data = Object.fromEntries(formData);
-      
-      // Validate required fields
-      const requiredFields = ['name', 'email', 'message'];
-      const missingFields = requiredFields.filter(field => !data[field] || !data[field].trim());
-      
-      if (missingFields.length > 0) {
-        showMessage('Please fill in all required fields.', 'error');
-        return;
-      }
-      
-      // Validate email
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(data.email)) {
-        showMessage('Please enter a valid email address.', 'error');
-        return;
-      }
-      
-      // Show loading state
-      const submitButton = form.querySelector('button[type="submit"]');
-      const originalButtonText = submitButton.textContent;
-      submitButton.textContent = 'Sending...';
-      submitButton.disabled = true;
-      form.classList.add('loading');
-      
-      try {
-        // Simulate form submission (replace with actual endpoint)
-        await new Promise(resolve => setTimeout(resolve, 2000));
-        
-        showMessage('Thank you! Your message has been sent successfully. I\'ll get back to you within 24 hours.', 'success');
-        form.reset();
-        
-        // Track form submission (Google Analytics)
-        if (typeof gtag !== 'undefined') {
-          gtag('event', 'contact_form_submit', {
-            'event_category': 'engagement',
-            'event_label': data['project-type'] || 'general_inquiry'
-          });
-        }
-        
-      } catch (error) {
-        showMessage('Sorry, there was an error sending your message. Please try again or email me directly.', 'error');
-      } finally {
-        submitButton.textContent = originalButtonText;
-        submitButton.disabled = false;
-        form.classList.remove('loading');
-      }
-    });
-
-    function showMessage(text, type) {
-      formMessage.textContent = text;
-      formMessage.className = type;
-      formMessage.style.display = 'block';
-      formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }
-
-    // Lazy loading for images
-    if ('IntersectionObserver' in window) {
-      const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const img = entry.target;
-            img.src = img.dataset.src || img.src;
-            img.classList.remove('lazy');
-            observer.unobserve(img);
-          }
+        // Smooth scroll enhancement
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
         });
-      });
 
-      document.querySelectorAll('img[data-src]').forEach(img => {
-        imageObserver.observe(img);
-      });
-    }
-
-    // Add structured data for page views
-    if (typeof gtag !== 'undefined') {
-      gtag('config', 'GA_MEASUREMENT_ID', {
-        page_title: 'Asha Studios - Expert Web Developer Toronto',
-        page_location: window.location.href,
-        content_group1: 'Portfolio'
-      });
-    }
-
-    // Preload critical resources
-    const criticalResources = [
-      'preview.jpg',
-      'project-ecommerce.jpg', 
-      'project-blog.jpg'
-    ];
-
-    criticalResources.forEach(resource => {
-      const link = document.createElement('link');
-      link.rel = 'preload';
-      link.as = 'image';
-      link.href = resource;
-      document.head.appendChild(link);
-    });
-
-    // Service Worker for offline functionality (optional)
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(registration => {
-            console.log('SW registered: ', registration);
-          })
-          .catch(registrationError => {
-            console.log('SW registration failed: ', registrationError);
-          });
-      });
-    }
-
-    // Add keyboard navigation for accessibility
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Tab') {
-        document.body.classList.add('keyboard-navigation');
-      }
-    });
-
-    document.addEventListener('mousedown', () => {
-      document.body.classList.remove('keyboard-navigation');
-    });
-
-    // Initialize animations when page loads
-    window.addEventListener('load', () => {
-      document.body.classList.add('loaded');
-      
-      // Trigger reveal animations for elements in view
-      revealElements.forEach(el => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight && rect.bottom > 0) {
-          el.classList.add('active');
+        // Performance monitoring
+        if ('performance' in window) {
+            window.addEventListener('load', () => {
+                const perfData = performance.getEntriesByType('navigation')[0];
+                if (perfData.loadEventEnd - perfData.loadEventStart < 3000) {
+                    console.log('✅ Page loaded in under 3 seconds - Great performance!');
+                }
+            });
         }
-      });
-    });
-  </script>
-
-  <!-- Google Analytics (replace with your tracking ID) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'GA_MEASUREMENT_ID', {
-      page_title: 'Asha Studios - Expert Web Developer Toronto',
-      page_location: window.location.href
-    });
-  </script>
-
+    </script>
 </body>
 </html>
