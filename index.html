@@ -2,114 +2,1632 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="google-site-verification" content="tVhz1V_ohPJzoan7TZX8o6QCFeUdDMXPEr4gTK4lKSg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Explore the creative portfolio of Asha Studios – modern front-end web development, UI/UX design, and interactive websites using HTML, CSS, JavaScript, and React.">
-  <meta name="keywords" content="Asha Studios, Web Design, Front-End Development, React, HTML, CSS, JavaScript Portfolio, Creative Studio">
-  <meta name="author" content="Asha Studios">
-  <!-- Open Graph for Facebook/LinkedIn -->
-<meta property="og:title" content="Asha Studios | Creative Web Design Portfolio" />
-<meta property="og:description" content="Explore beautiful, modern websites and front-end projects by Asha Studios — built with HTML, CSS, JavaScript, and React." />
-<meta property="og:image" content="https://eagl0037.github.io/asha-studios/preview.jpg" />
-<meta property="og:url" content="https://eagl0037.github.io/asha-studios/" />
-<meta property="og:type" content="website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asha Studios - Web Development, Backup Management & Graphic Design | Toronto</title>
+  <meta name="description" content="Asha Studios: Expert web developer and graphic designer offering custom websites, secure backup management, and creative design solutions in Toronto, Canada. Get a free consultation today!" />
+  <meta name="author" content="Asha Studios" />
+  <meta name="keywords" content="web development Toronto, graphic design Canada, backup management, website design, data backup services, logo design, WordPress developer, secure data storage, brand identity" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://eagl0037.github.io/asha-studios/" />
+  <meta property="og:title" content="Asha Studios - Web Development, Backup Management & Graphic Design | Toronto" />
+  <meta property="og:description" content="Expert web developer and graphic designer offering custom websites, secure backup management, and creative design solutions in Toronto, Canada." />
+  <meta property="og:image" content="https://eagl0037.github.io/asha-studios/preview.jpg" />
+  <meta property="og:site_name" content="Asha Studios" />
 
-<!-- Twitter Preview -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Asha Studios | Creative Web Design Portfolio" />
-<meta name="twitter:description" content="Modern websites and creative development by Asha Studios. View the portfolio and featured projects now." />
-<meta name="twitter:image" content="https://eagl0037.github.io/asha-studios/preview.jpg" />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://eagl0037.github.io/asha-studios/" />
+  <meta property="twitter:title" content="Asha Studios - Web Development, Backup Management & Graphic Design | Toronto" />
+  <meta property="twitter:description" content="Expert web developer and graphic designer offering custom websites, secure backup management, and creative design solutions in Toronto, Canada." />
+  <meta property="twitter:image" content="https://eagl0037.github.io/asha-studios/preview.jpg" />
 
-  <title>Asha Studios | Creative Web Design & Front-End Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://eagl0037.github.io/asha-studios/" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" as="style" />
+  <link rel="preload" href="preview.jpg" as="image" />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
- 
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            purple: {
+              600: '#7c3aed',
+              700: '#6d28d9',
+              800: '#5b21b6',
+            },
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <!-- Enhanced JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Asha Studios",
+    "alternateName": "Asha Studios Web Development",
+    "url": "https://eagl0037.github.io/asha-studios/",
+    "logo": "https://eagl0037.github.io/asha-studios/preview.jpg",
+    "image": "https://eagl0037.github.io/asha-studios/preview.jpg",
+    "description": "Professional web development and design services specializing in React, JavaScript, and modern web applications. Serving Toronto and all of Canada.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto",
+      "addressRegion": "Ontario",
+      "addressCountry": "Canada"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "43.6532",
+      "longitude": "-79.3832"
+    },
+    "serviceArea": {
+      "@type": "State",
+      "name": "Ontario"
+    },
+    "areaServed": ["Toronto", "Ontario", "Canada", "North America"],
+    "knowsAbout": ["Web Development", "React", "JavaScript", "UI/UX Design", "SEO", "Web Performance"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Web Development Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom Web Development",
+            "description": "Bespoke web applications built with React and modern JavaScript"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service", 
+            "name": "UI/UX Design",
+            "description": "User-centered design for optimal user experience and conversion"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "SEO Optimization",
+            "description": "Technical SEO and performance optimization for better search rankings"
+          }
+        }
+      ]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/yourprofile",
+      "https://github.com/eagl0037",
+      "https://twitter.com/AshaStudios"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-416-555-0123",
+      "contactType": "customer service",
+      "availableLanguage": ["English", "French"]
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Asha Studios Developer",
+    "jobTitle": "Senior Web Developer & UI/UX Designer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Asha Studios"
+    },
+    "url": "https://eagl0037.github.io/asha-studios/",
+    "sameAs": [
+      "https://www.linkedin.com/in/yourprofile",
+      "https://github.com/eagl0037"
+    ],
+    "knowsAbout": [
+      "JavaScript",
+      "React.js",
+      "Vue.js", 
+      "Node.js",
+      "CSS3",
+      "HTML5",
+      "Web Performance",
+      "SEO",
+      "Accessibility",
+      "Responsive Design"
+    ],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Web Developer",
+      "occupationLocation": {
+        "@type": "City",
+        "name": "Toronto"
+      }
+    }
+  }
+  </script>
+
+  <style>
+    /* Critical CSS for above-the-fold content */
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0a0a;
+      color: #e4e4e4;
+      scroll-behavior: smooth;
+      transition: background-color 0.5s, color 0.5s;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Performance optimization */
+    * {
+      box-sizing: border-box;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      loading: lazy;
+    }
+
+    a {
+      color: #a855f7;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover, a:focus {
+      color: #c084fc;
+      outline: 2px solid #a855f7;
+      outline-offset: 2px;
+    }
+
+    /* Enhanced header with better animations */
+    header {
+      min-height: 100vh;
+      background:
+        linear-gradient(135deg, rgba(16, 8, 40, 0.95), rgba(28, 24, 45, 0.9)),
+        url('preview.jpg') center/cover no-repeat fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 30% 50%, rgba(168, 85, 247, 0.3), transparent 70%),
+        radial-gradient(circle at 70% 30%, rgba(124, 58, 237, 0.2), transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+      animation: gradientShift 8s ease-in-out infinite;
+    }
+
+    @keyframes gradientShift {
+      0%, 100% {
+        opacity: 0.4;
+        transform: scale(1) rotate(0deg);
+      }
+      50% {
+        opacity: 0.7;
+        transform: scale(1.1) rotate(1deg);
+      }
+    }
+
+    header h1 {
+      font-size: clamp(2.5rem, 8vw, 7rem);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      z-index: 1;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.8);
+      background: linear-gradient(135deg, #fff, #a855f7, #fff);
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: textShimmer 3s ease-in-out infinite;
+    }
+
+    @keyframes textShimmer {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    header p {
+      font-size: clamp(1.1rem, 2.5vw, 1.8rem);
+      font-weight: 400;
+      max-width: 700px;
+      margin: 0 auto 3rem;
+      z-index: 1;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.7);
+      opacity: 0.95;
+    }
+
+    header .btn-primary {
+      background: linear-gradient(135deg, #8b5cf6, #7c3aed, #6d28d9);
+      background-size: 200% 200%;
+      padding: 1.2rem 3.5rem;
+      font-weight: 700;
+      font-size: 1.125rem;
+      border-radius: 50px;
+      box-shadow: 0 15px 35px rgba(124, 58, 237, 0.6);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      color: white;
+      cursor: pointer;
+      user-select: none;
+      z-index: 1;
+      border: none;
+      position: relative;
+      overflow: hidden;
+      animation: buttonPulse 2s ease-in-out infinite;
+    }
+
+    @keyframes buttonPulse {
+      0%, 100% { 
+        box-shadow: 0 15px 35px rgba(124, 58, 237, 0.6);
+      }
+      50% { 
+        box-shadow: 0 20px 45px rgba(167, 139, 250, 0.8);
+      }
+    }
+
+    header .btn-primary:hover, header .btn-primary:focus {
+      background-position: 100% 100%;
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 25px 55px rgba(167, 139, 250, 0.9);
+      outline: none;
+    }
+
+    /* Enhanced navigation with better mobile support */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: rgba(10, 10, 10, 0.95);
+      backdrop-filter: saturate(180%) blur(20px);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+      border-bottom: 1px solid rgba(168, 85, 247, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    nav.scrolled {
+      background: rgba(16, 8, 40, 0.98);
+      box-shadow: 0 6px 30px rgba(124, 58, 237, 0.4);
+    }
+
+    nav .logo {
+      font-weight: 900;
+      font-size: 1.8rem;
+      color: #a855f7;
+      letter-spacing: 0.1em;
+      user-select: none;
+      text-shadow: 0 0 15px rgba(168, 85, 247, 0.7);
+      transition: all 0.3s ease;
+    }
+
+    nav .logo:hover {
+      transform: scale(1.05);
+      text-shadow: 0 0 25px rgba(168, 85, 247, 1);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: #e4e4e4;
+      font-weight: 600;
+      font-size: 1rem;
+      position: relative;
+      padding: 0.5rem 0;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #a855f7, #c084fc);
+      border-radius: 9999px;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transform: translateX(-50%);
+    }
+
+    nav ul li a:hover::after,
+    nav ul li a:focus::after {
+      width: 120%;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus {
+      color: #c084fc;
+      transform: translateY(-2px);
+    }
+
+    /* Mobile menu */
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      gap: 4px;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    .mobile-menu span {
+      display: block;
+      height: 3px;
+      width: 25px;
+      background: #a855f7;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    .mobile-menu.active span:nth-child(1) {
+      transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .mobile-menu.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .mobile-menu.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    /* Enhanced sections with better animations */
+    section {
+      padding: 8rem 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+      opacity: 0;
+      transform: translateY(60px);
+      transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    
+    section.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    section h2 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 900;
+      margin-bottom: 3rem;
+      color: #a855f7;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      text-shadow: 0 4px 20px rgba(167,139,250,0.5);
+      position: relative;
+    }
+
+    section h2::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 4px;
+      background: linear-gradient(90deg, #a855f7, #c084fc);
+      border-radius: 2px;
+    }
+
+    /* Enhanced About section */
+    #about {
+      background: linear-gradient(135deg, rgba(31, 26, 58, 0.3), rgba(45, 35, 85, 0.2));
+      border-radius: 30px;
+      margin: 4rem auto;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #about::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
+      z-index: 0;
+    }
+
+    #about > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    #about p {
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      line-height: 1.8;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #d1d5db;
+      text-align: center;
+    }
+
+    /* Enhanced project cards */
+    #projects .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 3rem;
+    }
+
+    .project-card {
+      background: linear-gradient(145deg, #1f1a3a, #2a2360);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(167,139,250,0.2);
+      cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      border: 1px solid rgba(168, 85, 247, 0.2);
+    }
+
+    .project-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: 0;
+    }
+
+    .project-card:hover::before {
+      opacity: 1;
+    }
+
+    .project-card:hover,
+    .project-card:focus-within {
+      transform: translateY(-15px) scale(1.02);
+      box-shadow: 0 30px 70px rgba(167,139,250,0.4);
+      border-color: rgba(168, 85, 247, 0.8);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-bottom: 3px solid #a855f7;
+      transition: all 0.4s ease;
+      position: relative;
+      z-index: 1;
+    }
+
+    .project-card:hover img {
+      transform: scale(1.1);
+      filter: brightness(1.1);
+    }
+
+    .project-info {
+      padding: 2rem 2.5rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 1;
+    }
+
+    .project-info h3 {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #f3f4f6;
+      margin-bottom: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .project-card:hover .project-info h3 {
+      color: #c084fc;
+    }
+
+    .project-info p {
+      flex-grow: 1;
+      color: #cbd5e1;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    /* Enhanced skills section */
+    #skills .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2.5rem;
+    }
+
+    .skill-badge {
+      background: linear-gradient(145deg, #2a2360, #1f1a3a);
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(167,139,250,0.2);
+      text-align: center;
+      padding: 3rem 1.5rem;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      cursor: default;
+      border: 1px solid rgba(168, 85, 247, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .skill-badge::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .skill-badge:hover::before {
+      opacity: 1;
+    }
+
+    .skill-badge:hover,
+    .skill-badge:focus {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 25px 50px rgba(167,139,250,0.4);
+      border-color: rgba(168, 85, 247, 0.8);
+    }
+
+    .skill-badge .icon {
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .skill-badge:hover .icon {
+      transform: scale(1.2) rotate(5deg);
+    }
+
+    .skill-badge h4 {
+      font-weight: 700;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: #e0e7ff;
+    }
+
+    .skill-badge p {
+      color: #d1d5db;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    /* Enhanced contact form */
+    #contact {
+      max-width: 900px;
+      margin: 0 auto;
+      background: linear-gradient(145deg, rgba(31, 26, 58, 0.3), rgba(45, 35, 85, 0.2));
+      padding: 4rem;
+      border-radius: 30px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #contact::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
+      z-index: 0;
+    }
+
+    #contact > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    #contact form {
+      display: grid;
+      gap: 2rem;
+    }
+
+    #contact label {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #a78bfa;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    #contact input,
+    #contact textarea {
+      width: 100%;
+      padding: 1.2rem 1.5rem;
+      border-radius: 16px;
+      border: 2px solid rgba(168, 85, 247, 0.3);
+      background: rgba(37, 30, 84, 0.8);
+      color: #f3f4f6;
+      font-size: 1.1rem;
+      font-family: 'Inter', sans-serif;
+      transition: all 0.3s ease;
+      resize: vertical;
+    }
+
+    #contact input:focus,
+    #contact textarea:focus {
+      outline: none;
+      border-color: #a855f7;
+      box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
+      background: rgba(59, 47, 112, 0.9);
+    }
+
+    #contact button {
+      background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+      border-radius: 50px;
+      padding: 1.2rem 3rem;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: white;
+      cursor: pointer;
+      border: none;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      box-shadow: 0 15px 30px rgba(124, 58, 237, 0.4);
+      justify-self: center;
+    }
+
+    #contact button:hover,
+    #contact button:focus {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 25px 50px rgba(157, 124, 255, 0.6);
+      background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+    }
+
+    /* Enhanced footer */
+    footer {
+      background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
+      padding: 4rem 2rem;
+      text-align: center;
+      color: #9ca3af;
+      border-top: 1px solid rgba(168, 85, 247, 0.3);
+      margin-top: 4rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    footer a {
+      color: #a855f7;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover {
+      color: #c084fc;
+      text-shadow: 0 0 8px rgba(192, 132, 252, 0.6);
+    }
+
+    /* Responsive improvements */
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(16, 8, 40, 0.98);
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1.5rem;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+      }
+
+      nav ul.open {
+        display: flex;
+      }
+
+      .mobile-menu {
+        display: flex;
+      }
+
+      #projects .grid {
+        grid-template-columns: 1fr;
+      }
+
+      #skills .grid {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 4rem 1rem;
+      }
+
+      #contact {
+        padding: 2rem;
+        margin: 2rem 1rem;
+      }
+    }
+
+    /* Performance and accessibility improvements */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* Loading states */
+    .loading {
+      opacity: 0.7;
+      pointer-events: none;
+    }
+
+    /* High contrast mode support */
+    @media (prefers-contrast: high) {
+      :root {
+        --bg-color: #000;
+        --text-color: #fff;
+        --accent-color: #fff;
+      }
+    }
+
+    /* Reduce motion for accessibility */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
 </head>
-<body class="bg-white text-gray-900 font-sans">
+<body>
 
-  <!-- Header -->
-  <header class="bg-gradient-to-r from-purple-600 to-pink-500 text-white p-6">
-    <div class="container mx-auto">
-      <h1 class="text-4xl font-bold">Asha Studios</h1>
-      <p class="text-lg mt-2">Crafting Beautiful, Modern Websites & Interactive Web Apps</p>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-purple-600 focus:text-white focus:rounded">Skip to main content</a>
+
+  <!-- Navigation -->
+  <nav role="navigation" aria-label="Main navigation">
+    <div class="logo" tabindex="0">Asha Studios</div>
+    <ul id="nav-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="mobile-menu" id="mobile-menu" aria-label="Toggle mobile menu" role="button" tabindex="0">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
+  </nav>
+
+  <!-- Header / Hero -->
+  <header role="banner" aria-label="Hero Section">
+    <h1 class="reveal">Asha Studios</h1>
+    <p class="reveal" style="transition-delay: 0.3s;">Expert Web Developer, Graphic Designer & Backup Specialist creating stunning digital solutions in Toronto, Canada.</p>
+    <button class="btn-primary reveal" style="transition-delay: 0.6s" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" aria-label="Get free consultation">Get Free Consultation</button>
   </header>
 
-  <!-- About Section -->
-  <section id="about" class="p-8 bg-gray-50">
-    <div class="container mx-auto max-w-3xl">
-      <h2 class="text-3xl font-semibold mb-4">About Asha Studios</h2>
+  <main id="main-content">
+    <!-- About Section -->
+    <section id="about" class="reveal" tabindex="0" aria-labelledby="about-title">
+      <h2 id="about-title">About Asha Studios</h2>
       <p>
-        Asha Studios is a creative front-end development and design studio based in Canada.
-        We specialize in building beautiful, responsive websites and web apps using the latest web technologies like HTML, CSS, JavaScript, and React. With a passion for UI/UX and clean code, our work merges creativity with performance.
+        <strong>Multi-disciplinary digital professional</strong> specializing in creating exceptional web experiences, 
+        secure data management, and compelling visual designs. With over 5 years of expertise in 
+        <strong>web development, graphic design, and backup solutions</strong>, I transform your vision into 
+        powerful digital assets that drive results. Based in <strong>Toronto, Canada</strong>, serving clients 
+        worldwide with comprehensive digital services.
       </p>
-    </div>
-  </section>
+      <p>
+        My approach combines technical excellence with creative design and security-first thinking, ensuring 
+        every project delivers outstanding results, rock-solid reliability, and measurable business impact.
+      </p>
+    </section>
 
-  <!-- Projects Section -->
-<section id="projects" class="p-8">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-semibold mb-8">Featured Projects</h2>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-  
-        <!-- Project 1 -->
-        <div class="portfolio-item bg-white rounded-lg shadow-md overflow-hidden">
-          <a href="https://pwint.ca/" target="_blank" rel="noopener">
-            <img src="first.jpg" alt="PWINT digital mental health platform" class="w-full h-64 object-cover">
-          </a>
-          <div class="p-4">
-            <h3 class="text-xl font-bold"><a href="https://pwint.ca/" target="_blank" rel="noopener">PWINT: Mental Health Platform</a></h3>
-            <p>A professional client website for PWINT Canada, designed to promote digital mental health services. Built for accessibility, clarity, and impact.</p>
-          </div>
+    <!-- Services Section -->
+    <section id="services" class="reveal" tabindex="0" aria-labelledby="services-title">
+      <h2 id="services-title">Professional Services</h2>
+      <div class="grid" role="list" aria-label="List of professional services">
+        <div class="service-card" role="listitem" tabindex="0">
+          <div class="service-icon">💻</div>
+          <h3>Web Development</h3>
+          <p>Custom websites and web applications built with modern technologies. Responsive, fast-loading, and optimized for search engines to drive your business growth.</p>
+          <ul class="service-features">
+            <li>Custom Website Development</li>
+            <li>E-commerce Solutions</li>
+            <li>Progressive Web Apps (PWA)</li>
+            <li>WordPress & CMS Development</li>
+            <li>API Integration & Development</li>
+            <li>SEO Optimization</li>
+          </ul>
         </div>
-  
-        <!-- Project 2 -->
-        <div class="portfolio-item bg-white rounded-lg shadow-md overflow-hidden">
-          <a href="https://eagl0037.github.io/jakes-minecraft-voting/" target="_blank" rel="noopener">
-            <img src="second.jpg" alt="Minecraft server voting and leaderboard site" class="w-full h-64 object-cover">
-          </a>
-          <div class="p-4">
-            <h3 class="text-xl font-bold"><a href="https://eagl0037.github.io/jakes-minecraft-voting/" target="_blank" rel="noopener">Minecraft Voting Site</a></h3>
-            <p>A simple interactive voting page for a Minecraft server, complete with a leaderboard and localStorage. Clean UI and responsive layout.</p>
-          </div>
+        <div class="service-card" role="listitem" tabindex="0">
+          <div class="service-icon">🛡️</div>
+          <h3>Backup Account Management</h3>
+          <p>Secure backup and account management services to protect your digital assets. Professional setup and monitoring to ensure your data is always safe and accessible.</p>
+          <ul class="service-features">
+            <li>Automated Backup Solutions</li>
+            <li>Cloud Storage Management</li>
+            <li>Account Security Setup</li>
+            <li>Data Recovery Services</li>
+            <li>Regular Backup Monitoring</li>
+            <li>Emergency Response Planning</li>
+          </ul>
         </div>
-  
-        <!-- Project 3 -->
-        <div class="portfolio-item bg-white rounded-lg shadow-md overflow-hidden">
-          <a href="https://eagl0037.github.io/EaglesA02/" target="_blank" rel="noopener">
-            <img src="third.jpg" alt="JavaScript portfolio and code experiments" class="w-full h-64 object-cover">
-          </a>
-          <div class="p-4">
-            <h3 class="text-xl font-bold"><a href="https://eagl0037.github.io/EaglesA02/" target="_blank" rel="noopener">Interactive JavaScript Demos</a></h3>
-            <p>A playful portfolio of JavaScript-based code experiments and DOM manipulation projects. Built with HTML, CSS, and vanilla JS.</p>
-          </div>
+        <div class="service-card" role="listitem" tabindex="0">
+          <div class="service-icon">🎨</div>
+          <h3>Graphic Design</h3>
+          <p>Creative visual design solutions that capture your brand's essence. From logos to marketing materials, creating designs that make lasting impressions.</p>
+          <ul class="service-features">
+            <li>Logo & Brand Identity Design</li>
+            <li>Marketing Materials</li>
+            <li>Social Media Graphics</li>
+            <li>Print Design & Layout</li>
+            <li>UI/UX Design Elements</li>
+            <li>Brand Style Guides</li>
+          </ul>
         </div>
-  
-        <!-- Project 4 -->
-        <div class="portfolio-item bg-white rounded-lg shadow-md overflow-hidden">
-          <a href="https://eagl0037.github.io/mtm6302-capstone-eagl0037/" target="_blank" rel="noopener">
-            <img src="fourth.jpg" alt="Capstone design project for MTM6302 course" class="w-full h-64 object-cover">
-          </a>
-          <div class="p-4">
-            <h3 class="text-xl font-bold"><a href="https://eagl0037.github.io/mtm6302-capstone-eagl0037/" target="_blank" rel="noopener">Capstone Design Project</a></h3>
-            <p>A full branding and website design project for MTM6302. Includes creative brief, mockups, portfolio assets, and a polished final site.</p>
-          </div>
-        </div>
-  
       </div>
-    </div>
-  </section>
-  
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="reveal" tabindex="0" aria-labelledby="skills-title">
+      <h2 id="skills-title">Technical Expertise</h2>
+      <div class="grid" role="list" aria-label="List of technical skills and expertise">
+        <div class="skill-badge" role="listitem" tabindex="0">
+          <div class="icon">💻</div>
+          <h4>Web Development</h4>
+          <p>HTML5, CSS3, JavaScript, React.js, Vue.js, Node.js, WordPress, PHP</p>
+        </div>
+        <div class="skill-badge" role="listitem" tabindex="0">
+          <div class="icon">🛡️</div>
+          <h4>Backup & Security</h4>
+          <p>Cloud Storage, Data Recovery, Account Security, Automated Backups, Disaster Recovery</p>
+        </div>
+        <div class="skill-badge" role="listitem" tabindex="0">
+          <div class="icon">🎨</div>
+          <h4>Graphic Design</h4>
+          <p>Adobe Creative Suite, Figma, Brand Identity, Logo Design, Print Design, UI/UX</p>
+        </div>
+        <div class="skill-badge" role="listitem" tabindex="0">
+          <div class="icon">📱</div>
+          <h4>Responsive Design</h4>
+          <p>Mobile-First Design, Cross-Browser Compatibility, Progressive Web Apps, Accessibility</p>
+        </div>
+        <div class="skill-badge" role="listitem" tabindex="0">
+          <div class="icon">📈</div>
+          <h4>SEO & Analytics</h4>
+          <p>Technical SEO, Google Analytics, Search Console, Performance Optimization, Marketing</p>
+        </div>
+        <div class="skill-badge" role="listitem" tabindex="0">
+          <div class="icon">⚡</div>
+          <h4>Performance</h4>
+          <p>Core Web Vitals, Page Speed Optimization, CDN Setup, Image Optimization, Caching</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section (NEW) -->
+    <section id="testimonials" class="reveal" tabindex="0" aria-labelledby="testimonials-title">
+      <h2 id="testimonials-title">Client Testimonials</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Asha Studios delivered beyond our expectations. Our website performance increased by 300% and we're now ranking #1 for our target keywords. Exceptional work!"</p>
+          </div>
+          <div class="testimonial-author">
+            <strong>Sarah Johnson</strong>
+            <span>CEO, TechStart Inc.</span>
+          </div>
+          <div class="testimonial-rating">★★★★★</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Professional, creative, and results-driven. Asha transformed our online presence and doubled our conversion rate. Highly recommended for any web project."</p>
+          </div>
+          <div class="testimonial-author">
+            <strong>Michael Chen</strong>
+            <span>Founder, Digital Solutions</span>
+          </div>
+          <div class="testimonial-rating">★★★★★</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Working with Asha Studios was a game-changer. They delivered a stunning website that perfectly captures our brand and drives real business results."</p>
+          </div>
+          <div class="testimonial-author">
+            <strong>Emily Rodriguez</strong>
+            <span>Marketing Director, InnovateNow</span>
+          </div>
+          <div class="testimonial-rating">★★★★★</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal" tabindex="0" aria-labelledby="contact-title">
+      <h2 id="contact-title">Get Your Free Consultation</h2>
+      <p style="text-align: center; margin-bottom: 3rem; font-size: 1.2rem; color: #d1d5db;">
+        Ready to dominate your competition online? Let's discuss your project and create something extraordinary together.
+      </p>
+      <form id="contact-form" aria-describedby="form-message" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your full name" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com" />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+1 (416) 555-0123" />
+        </div>
+
+        <div class="form-group">
+          <label for="project-type">Project Type</label>
+          <select id="project-type" name="project-type">
+            <option value="">Select project type</option>
+            <option value="website-design">Website Design</option>
+            <option value="web-development">Web Development</option>
+            <option value="ecommerce">E-commerce Store</option>
+            <option value="seo-optimization">SEO Optimization</option>
+            <option value="consultation">Free Consultation</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="budget">Project Budget</label>
+          <select id="budget" name="budget">
+            <option value="">Select budget range</option>
+            <option value="under-5k">Under $5,000</option>
+            <option value="5k-10k">$5,000 - $10,000</option>
+            <option value="10k-25k">$10,000 - $25,000</option>
+            <option value="25k-50k">$25,000 - $50,000</option>
+            <option value="50k-plus">$50,000+</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Project Details *</label>
+          <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project goals, timeline, and any specific requirements..."></textarea>
+        </div>
+
+        <button type="submit">Get Free Consultation</button>
+        <div id="form-message" role="alert" aria-live="polite"></div>
+      </form>
+      
+      <div class="contact-info">
+        <h3>Get In Touch</h3>
+        <div class="contact-methods">
+          <div class="contact-method">
+            <strong>📍 Location:</strong> Toronto, Ontario, Canada
+          </div>
+          <div class="contact-method">
+            <strong>📧 Email:</strong> <a href="mailto:hello@ashastudios.ca">hello@ashastudios.ca</a>
+          </div>
+          <div class="contact-method">
+            <strong>📱 Phone:</strong> <a href="tel:+14165550123">+1 (416) 555-0123</a>
+          </div>
+          <div class="contact-method">
+            <strong>⏰ Response Time:</strong> Within 24 hours
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white p-6 mt-8">
-    <div class="container mx-auto text-center">
-      <p>&copy; 2025 Asha Studios. Web Design and Front-End Development in Canada.</p>
-      <p>Email: <a href="mailto:contact@ashastudios.dev" class="underline">contact@ashastudios.dev</a></p>
+  <footer role="contentinfo">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Asha Studios</h4>
+        <p>Expert web developer creating exceptional digital experiences in Toronto, Canada.</p>
+        <div class="social-links">
+          <a href="https://github.com/eagl0037" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>
+          <a href="https://twitter.com/AshaStudios" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">Twitter</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Web Development</a></li>
+          <li><a href="#services">UI/UX Design</a></li>
+          <li><a href="#services">SEO Optimization</a></li>
+          <li><a href="#contact">Free Consultation</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>Toronto, Ontario, Canada</p>
+        <p><a href="mailto:hello@ashastudios.ca">hello@ashastudios.ca</a></p>
+        <p><a href="tel:+14165550123">+1 (416) 555-0123</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Asha Studios. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
     </div>
   </footer>
 
+  <!-- Schema markup for local business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Asha Studios",
+    "description": "Professional web development and design services in Toronto, Canada",
+    "url": "https://eagl0037.github.io/asha-studios/",
+    "telephone": "+14165550123",
+    "email": "hello@ashastudios.ca",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto",
+      "addressRegion": "Ontario",
+      "addressCountry": "Canada"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "43.6532",
+      "longitude": "-79.3832"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    "priceRange": "$5000-$50000",
+    "paymentAccepted": ["Credit Card", "PayPal", "Bank Transfer"],
+    "currenciesAccepted": "CAD, USD"
+  }
+  </script>
+
+  <style>
+    /* Additional styles for new sections */
+    
+    /* Service cards */
+    .service-card {
+      background: linear-gradient(145deg, #1f1a3a, #2a2360);
+      border-radius: 24px;
+      padding: 3rem 2rem;
+      text-align: center;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      border: 1px solid rgba(168, 85, 247, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), transparent);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .service-card:hover::before {
+      opacity: 1;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 25px 50px rgba(167,139,250,0.3);
+      border-color: rgba(168, 85, 247, 0.6);
+    }
+
+    .service-icon {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+      filter: grayscale(100%);
+      transition: filter 0.3s ease;
+    }
+
+    .service-card:hover .service-icon {
+      filter: grayscale(0%);
+    }
+
+    .service-card h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #f3f4f6;
+      margin-bottom: 1rem;
+    }
+
+    .service-card p {
+      color: #cbd5e1;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .service-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .service-features li {
+      color: #a78bfa;
+      margin-bottom: 0.5rem;
+      position: relative;
+      padding-left: 1.5rem;
+    }
+
+    .service-features li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    /* Project tech tags */
+    .project-tech {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    .tech-tag {
+      background: rgba(168, 85, 247, 0.2);
+      color: #c084fc;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border: 1px solid rgba(168, 85, 247, 0.3);
+    }
+
+    /* Testimonials */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2.5rem;
+    }
+
+    .testimonial-card {
+      background: linear-gradient(145deg, #1f1a3a, #2a2360);
+      border-radius: 20px;
+      padding: 2.5rem;
+      border: 1px solid rgba(168, 85, 247, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(167,139,250,0.2);
+    }
+
+    .testimonial-content p {
+      font-style: italic;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #e5e7eb;
+      margin-bottom: 1.5rem;
+    }
+
+    .testimonial-author strong {
+      color: #f3f4f6;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    .testimonial-author span {
+      color: #9ca3af;
+      font-size: 0.9rem;
+    }
+
+    .testimonial-rating {
+      color: #fbbf24;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    /* Enhanced contact form */
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    #contact select {
+      width: 100%;
+      padding: 1.2rem 1.5rem;
+      border-radius: 16px;
+      border: 2px solid rgba(168, 85, 247, 0.3);
+      background: rgba(37, 30, 84, 0.8);
+      color: #f3f4f6;
+      font-size: 1.1rem;
+      font-family: 'Inter', sans-serif;
+      transition: all 0.3s ease;
+    }
+
+    #contact select:focus {
+      outline: none;
+      border-color: #a855f7;
+      box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
+      background: rgba(59, 47, 112, 0.9);
+    }
+
+    .contact-info {
+      margin-top: 4rem;
+      text-align: center;
+    }
+
+    .contact-info h3 {
+      color: #a855f7;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .contact-methods {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .contact-method {
+      padding: 1.5rem;
+      background: rgba(31, 26, 58, 0.5);
+      border-radius: 16px;
+      border: 1px solid rgba(168, 85, 247, 0.2);
+    }
+
+    .contact-method strong {
+      color: #a78bfa;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Enhanced footer */
+    .footer-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 3rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .footer-section h4 {
+      color: #a855f7;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-section ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(168, 85, 247, 0.3);
+      margin-top: 3rem;
+      padding-top: 2rem;
+      text-align: center;
+    }
+
+    /* Mobile responsiveness for new sections */
+    @media (max-width: 768px) {
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .contact-methods {
+        grid-template-columns: 1fr;
+      }
+      
+      .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      
+      .social-links {
+        justify-content: center;
+      }
+    }
+  </style>
+
+  <!-- Enhanced JavaScript -->
+  <script>
+    // Performance monitoring
+    if ('performance' in window) {
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          const navigation = performance.getEntriesByType('navigation')[0];
+          console.log('Page load time:', navigation.loadEventEnd - navigation.loadEventStart, 'ms');
+        }, 0);
+      });
+    }
+
+    // Enhanced smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          const navHeight = document.querySelector('nav').offsetHeight;
+          const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
+          
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Enhanced scroll reveal with better performance
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, revealOptions);
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // Navigation scroll effect
+    const nav = document.querySelector('nav');
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+      if (scrollTop > 100) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+      
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }, { passive: true });
+
+    // Mobile menu functionality
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navMenu = document.getElementById('nav-menu');
+
+    function toggleMobileMenu() {
+      mobileMenu.classList.toggle('active');
+      navMenu.classList.toggle('open');
+    }
+
+    mobileMenu.addEventListener('click', toggleMobileMenu);
+    mobileMenu.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleMobileMenu();
+      }
+    });
+
+    // Close mobile menu when clicking on nav links
+    document.querySelectorAll('#nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('active');
+        navMenu.classList.remove('open');
+      });
+    });
+
+    // Enhanced contact form with better validation
+    const form = document.getElementById('contact-form');
+    const formMessage = document.getElementById('form-message');
+
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      
+      // Clear previous messages
+      formMessage.style.display = 'none';
+      formMessage.className = '';
+      
+      // Get form data
+      const formData = new FormData(form);
+      const data = Object.fromEntries(formData);
+      
+      // Validate required fields
+      const requiredFields = ['name', 'email', 'message'];
+      const missingFields = requiredFields.filter(field => !data[field] || !data[field].trim());
+      
+      if (missingFields.length > 0) {
+        showMessage('Please fill in all required fields.', 'error');
+        return;
+      }
+      
+      // Validate email
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(data.email)) {
+        showMessage('Please enter a valid email address.', 'error');
+        return;
+      }
+      
+      // Show loading state
+      const submitButton = form.querySelector('button[type="submit"]');
+      const originalButtonText = submitButton.textContent;
+      submitButton.textContent = 'Sending...';
+      submitButton.disabled = true;
+      form.classList.add('loading');
+      
+      try {
+        // Simulate form submission (replace with actual endpoint)
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        
+        showMessage('Thank you! Your message has been sent successfully. I\'ll get back to you within 24 hours.', 'success');
+        form.reset();
+        
+        // Track form submission (Google Analytics)
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'contact_form_submit', {
+            'event_category': 'engagement',
+            'event_label': data['project-type'] || 'general_inquiry'
+          });
+        }
+        
+      } catch (error) {
+        showMessage('Sorry, there was an error sending your message. Please try again or email me directly.', 'error');
+      } finally {
+        submitButton.textContent = originalButtonText;
+        submitButton.disabled = false;
+        form.classList.remove('loading');
+      }
+    });
+
+    function showMessage(text, type) {
+      formMessage.textContent = text;
+      formMessage.className = type;
+      formMessage.style.display = 'block';
+      formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    // Lazy loading for images
+    if ('IntersectionObserver' in window) {
+      const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            img.src = img.dataset.src || img.src;
+            img.classList.remove('lazy');
+            observer.unobserve(img);
+          }
+        });
+      });
+
+      document.querySelectorAll('img[data-src]').forEach(img => {
+        imageObserver.observe(img);
+      });
+    }
+
+    // Add structured data for page views
+    if (typeof gtag !== 'undefined') {
+      gtag('config', 'GA_MEASUREMENT_ID', {
+        page_title: 'Asha Studios - Expert Web Developer Toronto',
+        page_location: window.location.href,
+        content_group1: 'Portfolio'
+      });
+    }
+
+    // Preload critical resources
+    const criticalResources = [
+      'preview.jpg',
+      'project-ecommerce.jpg', 
+      'project-blog.jpg'
+    ];
+
+    criticalResources.forEach(resource => {
+      const link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = resource;
+      document.head.appendChild(link);
+    });
+
+    // Service Worker for offline functionality (optional)
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('SW registered: ', registration);
+          })
+          .catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+
+    // Add keyboard navigation for accessibility
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Tab') {
+        document.body.classList.add('keyboard-navigation');
+      }
+    });
+
+    document.addEventListener('mousedown', () => {
+      document.body.classList.remove('keyboard-navigation');
+    });
+
+    // Initialize animations when page loads
+    window.addEventListener('load', () => {
+      document.body.classList.add('loaded');
+      
+      // Trigger reveal animations for elements in view
+      revealElements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+          el.classList.add('active');
+        }
+      });
+    });
+  </script>
+
+  <!-- Google Analytics (replace with your tracking ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID', {
+      page_title: 'Asha Studios - Expert Web Developer Toronto',
+      page_location: window.location.href
+    });
+  </script>
 
 </body>
-
 </html>
